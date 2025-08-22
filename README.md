@@ -20,11 +20,11 @@ Source: CSV file containing 1,460 records and 81 features.
 
 ###  Data Understanding & EDA
 
-    Target variable: SalePrice
+Target variable: SalePrice
 
-    Visualize relationships and correlations using heatmaps.
+Visualize relationships and correlations using heatmaps.
 
-    Key correlated pairs:
+Key correlated pairs:
 
         GarageYrBuilt_Age ↔ YearBuilt_Age
 
@@ -42,11 +42,11 @@ Handle missing values using SimpleImputer:
 
 ###  Data Preparation
 
-    Normalize skewed target variable (SalePrice)
+Normalize skewed target variable (SalePrice)
 
-    Generate dummy variables for categorical features
+Generate dummy variables for categorical features
 
-    Final feature set: 273 columns
+Final feature set: 273 columns
 
 ###  Model Building & Evaluation
 
@@ -70,7 +70,7 @@ Ridge Regression
 
         OverallQual_Fair
 
-    Lasso Regression
+Lasso Regression
 
     Optimal λ: 0.001
 
@@ -92,11 +92,11 @@ Ridge Regression
 
 ## Summary & Insights
 
-    Both Ridge and Lasso models demonstrate strong predictive performance.
+Both Ridge and Lasso models demonstrate strong predictive performance.
 
-    Regularization effectively handles multicollinearity and feature selection.
+Regularization effectively handles multicollinearity and feature selection.
 
-    Key features like frontage, basement baths, and floor area are consistent indicators of price.
+Key features like frontage, basement baths, and floor area are consistent indicators of price.
 
 ## 🛠 Technologies Used
 Python (pandas, scikit-learn, matplotlib, seaborn)
