@@ -1,7 +1,9 @@
 # House Price Prediction (Advanced Linear Regression and Deep learning)
 
 ## 📊 Surprise Housing Case Study
-Overview
+
+### Overview
+
 Surprise Housing, a US-based real estate analytics firm, is expanding into the Australian market. To identify undervalued properties for profitable resale, the company has collected housing sales data from Australia. This project aims to build predictive models using regularized regression techniques to estimate actual house prices and guide investment decisions.
 
 ## 🎯 Business Objective
